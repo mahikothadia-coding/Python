@@ -1,0 +1,13 @@
+# create a pattern in form of an traiangle we have to 
+print("Half pyramid pattern of stars (*):")
+n = int(input("Enter the number of rows you want in your pyramid:  "))
+
+for i in range(n):
+    for j in range(i + 1):
+        print (" * " , end = "")
+    print()  
+# So the print command will tell the user it is making a pyramid
+# n is  variable and it is holding the value of how many rows and columns you want.
+# for the next bit of code i means the amount of rows it is going to pirint and why n
+#  because it is the users input.
+# for j in range it is the same reason but this is for the columns it is going to print.
