@@ -4,5 +4,6 @@ def total_calc(bill_amount,tip_percentage):
     print(f"Please pay £{total}")
 
 bill = float(input("Enter your total bill amount:  "))
+
 tip = float(input("Enter the percentage amount you want to give us:  "))    
 total_calc(bill, tip)
