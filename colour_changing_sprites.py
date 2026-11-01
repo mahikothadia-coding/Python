@@ -74,7 +74,7 @@ def main():
         window1.fill((0,0,0))
         pygame.draw.rect(window1,current_color, (s_left, s_top, s_width, s_height))
         pygame.display.flip()
-        clock.tick(30)
+        clock.tick(120)
     pygame.quit()
 
 
